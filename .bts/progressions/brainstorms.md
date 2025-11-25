@@ -74,7 +74,7 @@ initial instruments must be: easy to operate, deploy, and processed as well as c
 - How long the software is useful
 
   Forever?  
-  Maintanance will mostly not happen daily nor monthly, maybe bimonthly. Will probably host potential worthy developer after certain amount of time
+  Maintanance will mostly not happen daily nor even monthly, maybe bimonthly. Will probably host potential worthy developer after certain amount of time
 
 # Plug and Play kinda Instrument Packages
 
