@@ -67,8 +67,8 @@ initial instruments must be: easy to operate, deploy, and processed as well as c
   
   College Students, especially in marine science, globally
 
-  (needs to be open-access aka free, but still closed source)
-  (needs a easy non-complex instant instalation)
+  (needs to be open-access aka free, but still closed source) **EULA**
+  (needs a easy non-complex instant instalation) **Compiler**
   (needs sites to open issues)
 
 - How long the software is useful

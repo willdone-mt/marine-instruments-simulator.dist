@@ -28,8 +28,11 @@ most of this goals are in order
 - run the form and conclude it
 - Decide the first targeted instrument [✅]
 - learn the targeted instrument's license
-- after an initial instrument have been chosen , make new branch "InDev"
+- after an initial instrument have been chosen , make new branch "InDev" [✅]
 - programm the refraktometer simulation
+
+### Software Designing Roadmap
+
 
 ## Late Goals
 1. 
