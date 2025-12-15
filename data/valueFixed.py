@@ -2,8 +2,9 @@
 Test file to experiment with a fixed value
 """
 
-value = 10
+def getFixedValue():
+    return 10
 
-value_fixed = value
+value = getFixedValue()
 
-# print(value_fixed)
+print(value)
