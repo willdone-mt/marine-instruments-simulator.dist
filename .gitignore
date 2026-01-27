@@ -4,6 +4,7 @@
 
 # Python cache files
 data/__pycache__/
+src/instruments/hand_refractometer/__pycache__
 
 # unused unimportant files
 Experiments/
