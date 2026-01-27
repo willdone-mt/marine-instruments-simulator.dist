@@ -1,5 +1,8 @@
 # NEWS!
 
+# 2026/01/27 - FINALLY STARTING IT SLOWLY!
+- Managed to create the UML Activity Diagram for Hand Refractometer!
+
 # 2025/12/06
 - College tasks are all done, only exam week left
 
