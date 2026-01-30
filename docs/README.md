@@ -1,5 +1,8 @@
 # NEWS!
 
+# 2026/01/30
+![Screen Recording 2026-01-30 214828](https://github.com/user-attachments/assets/e0c71dd2-42cc-4dd1-a4bc-faa7ef94547d)
+
 # 2026/01/27 - FINALLY STARTING IT SLOWLY!
 - Managed to create the UML Activity Diagram for Hand Refractometer!
 
