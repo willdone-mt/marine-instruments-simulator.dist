@@ -1,5 +1,12 @@
 # NEWS!
 
+# 2026/01/31
+![Screen Recording 2026-01-31 071814](https://github.com/user-attachments/assets/85a13b79-f9df-48f0-aa51-0826f3e02456)
+## What is left to do
+- fixed sized window
+- move pixel/image based on value
+- tidy widgets placements
+
 # 2026/01/30
 ![Screen Recording 2026-01-30 214828](https://github.com/user-attachments/assets/e0c71dd2-42cc-4dd1-a4bc-faa7ef94547d)
 
