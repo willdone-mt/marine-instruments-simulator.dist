@@ -6,7 +6,7 @@
 .bts/learning_playtrough
 
 # Python cache files
-data/__pycache__/
+**/__pycache__/
 
 # unused unimportant files
 Experiments/
