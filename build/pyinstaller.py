@@ -4,7 +4,7 @@ PyInstaller.__main__.run([
     '--onefile',
     '--paths=src',
     'src/main_ui.py',
-    '--add-data=src/instruments/handrefractometer:handrefractometer',
+    '--add-data=src:src',
     '--workpath=build/build_temp',
     '--distpath=build/dist',
     # '--noconsole',
