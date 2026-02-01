@@ -7,3 +7,6 @@ def random_value():
 
 def fixed_value():
     return (30)
+
+def test_run():
+    print("value_generator is running")

@@ -126,3 +126,6 @@ def peek():
 
 def status():
     return closedLid, calibrated, wiped, sampled
+
+def test_run():
+    print("command_defintion is running")
