@@ -12,30 +12,8 @@ from instruments.handrefractometer import handrefractometer_ui
 Problems: 
 - master.py malah menjalankan import di directorynya dan bukan directory modul2nya
 - ketika handrefractometer_ui dijalankan dari master.py, handrefractometer_ui kehilangan ttk-nya
+    - troubleshooted, masalahnya ada di master.py, tapi belum tau bagaimana pastinya
 '''
-
-def open_news():
-    wb.open("https://github.com/willdone-mt/marine-instruments-simulator.pages/tree/main/docs#readme")
-
-def open_githubissue():
-    wb.open("https://github.com/willdone-mt/marine-instruments-simulator.pages/issues")
-
-# Main TKinter functions =====
-# Main Window
-root = tk.Tk()
-root.title("SIRENIA - Home Menu")
-root.geometry("800x600")
-root.resizable(False, False)
-
-# ttk Style
-style = ttk.Style()
-style.configure("BW.TPanedwindow", foreground="grey", background="white", relief="raised")
-style.configure("TLabel", foreground="black", background="white", font=("Calibri", 10, "bold"))
-style.configure("1.TLabel", foreground="black", background="white", font=("Verdana", 16, "bold"), relief="flat", borderwidth=2)
-style.configure("2.TLabel", foreground="black", background="white", font=("Verdana", 14, "bold"), relief="flat", borderwidth=2)
-
-def run_handrefractometer_ui():
-    handrefractometer_ui.run_ui()
 
 ascii_art = """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⠾⠿⠿⠯⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -49,9 +27,30 @@ ascii_art = """
 ⠉⠉⠉⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠁⠀🐋
 """
 
-canvas = tk.Canvas(root, width=900, height=600)
-canvas.create_text(400, 300, text=ascii_art, font=("consolas", 12), anchor="s")
-canvas.place(x=0, rely=0.5, anchor="nw")
+def open_news():
+    wb.open("https://github.com/willdone-mt/marine-instruments-simulator.pages/tree/main/docs#readme")
+
+def open_githubissue():
+    wb.open("https://github.com/willdone-mt/marine-instruments-simulator.pages/issues")
+
+def run_handrefractometer_ui():
+    handrefractometer_ui.run_ui(root)
+
+# Main TKinter functions =====
+
+# Main Window
+root = tk.Tk()
+root.title("SIRENIA - Home Menu")
+root.geometry("800x600")
+
+# ttk Style
+style = ttk.Style()
+style.configure("BW.TPanedwindow", foreground="grey", background="white", relief="raised")
+style.configure("TLabel", foreground="black", background="white", font=("Calibri", 10, "bold"))
+style.configure("1.TLabel", foreground="black", background="white", font=("Verdana", 16, "bold"), relief="flat", borderwidth=2)
+style.configure("2.TLabel", foreground="black", background="white", font=("Verdana", 14, "bold"), relief="flat", borderwidth=2)
+
+# =====
 
 # Paned Windows
 
@@ -92,6 +91,10 @@ button_WIP.pack(anchor='n', pady=10)
 label_home.pack(anchor='n', pady=10)
 button_news.pack(anchor='n', pady=10)
 button_reportGitHub.pack(anchor='n', pady=10)
+
+canvas = tk.Canvas(root, width=800, height=600)
+canvas.create_text(400, 300, text=ascii_art, font=("consolas", 12), anchor="s")
+canvas.place(relx=0.5, rely=1, anchor="center")
 
 #
 root.mainloop()

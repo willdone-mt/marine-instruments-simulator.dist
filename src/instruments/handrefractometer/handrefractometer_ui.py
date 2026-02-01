@@ -5,9 +5,7 @@ try:
 except ImportError:
     from handrefractometer_module import command_definitions as cd
 
-
-
-def run_ui():
+def run_ui(parent_root=None):
     # Can we make these rows between =#=== as an external module file? 
     # =#====
 
@@ -52,7 +50,13 @@ def run_ui():
 
     # Main TKinter functions =====
     # Main Window
-    HRroot = tk.Tk()
+    if parent_root is None:
+        # kalau dijalankan langsung
+        HRroot = tk.Tk()
+    else:
+        # kalau dipanggil dari master.py
+        HRroot = tk.Toplevel(parent_root)
+
     HRroot.title("HandRefractometer MVP Simulator")
     HRroot.geometry("1760x990")
     HRroot.resizable(False, False)
