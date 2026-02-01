@@ -1,7 +1,19 @@
 '''
 
 '''
-import value_generator as vg
+# value_generator imported =====
+from matplotlib.pylab import randint
+
+def random_value():
+    return randint(1, 100)
+
+def fixed_value():
+    return (30)
+
+def test_run_value():
+    print("value_generator is running")
+
+# =====
 
 # global variables, as they were a real not used instrument yet
 closedLid = True  
@@ -91,7 +103,7 @@ def sample():
         sampled = True
         wiped = False
         calibrated = False
-        value = vg.random_value()
+        value = random_value()
         print(f"sampled:{sampled}, wiped:{wiped}, calibrated:{calibrated}")
         message = "Water sampled!"
         print(message)

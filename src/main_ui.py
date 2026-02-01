@@ -6,17 +6,12 @@ from tkinter import ttk
 import subprocess as sp
 import webbrowser as wb
 
-from instruments.hand_refractometer import handrefractometer_ui  
-
-def run_handrefractometer_ui():
-    handrefractometer_ui.run_ui()
+from instruments.handrefractometer import handrefractometer_ui  
 
 '''
 Problems: 
 - master.py malah menjalankan import di directorynya dan bukan directory modul2nya
 - ketika handrefractometer_ui dijalankan dari master.py, handrefractometer_ui kehilangan ttk-nya
-
-
 '''
 
 def open_news():
@@ -38,6 +33,9 @@ style.configure("BW.TPanedwindow", foreground="grey", background="white", relief
 style.configure("TLabel", foreground="black", background="white", font=("Calibri", 10, "bold"))
 style.configure("1.TLabel", foreground="black", background="white", font=("Verdana", 16, "bold"), relief="flat", borderwidth=2)
 style.configure("2.TLabel", foreground="black", background="white", font=("Verdana", 14, "bold"), relief="flat", borderwidth=2)
+
+def run_handrefractometer_ui():
+    handrefractometer_ui.run_ui()
 
 ascii_art = """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⠾⠿⠿⠯⣷⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -81,7 +79,7 @@ label_instruments = ttk.Label(paned_main, text="Select an Instrument to Simulate
 
 
 # Buttons
-button_run_hand_refractometer = ttk.Button(paned_main, text="Hand Refractometer")
+button_run_hand_refractometer = ttk.Button(paned_main, text="Hand Refractometer", command=run_handrefractometer_ui)
 button_WIP = ttk.Button(paned_main, text="WIP Instrument", command=lambda: print("WIP Instrument UI not yet implemented"))
 
 button_news = ttk.Button(paned_home, text="News↗️", command=open_news)
