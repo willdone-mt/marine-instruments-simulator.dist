@@ -15,35 +15,46 @@ def run_ui(parent_root=None):
 
     # defining functions =====
     def open_lid():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.open_lid()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=f"{message}")
 
     def close_lid():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.close_lid()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=f"{message}")
 
     def calibration():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.calibrate()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=message)
 
     def wipe_lens():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.wipe()
         label_message.config(text=message)
 
     def sample():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.sample()
         label_message.config(text=message)
 
     def peek():
+
         closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.peek()
         label_message.config(text=message)
         if value == False and value != 0:
             label_lid.config(text="Lid is still opened")
         else:
             label_value.config(text=f"You got the number {value}")
+
+    def point_to_lightsource():
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.point_to_lightsource()
+        label_message.config(text=message)
+
 
     def test_run():
         print("hand_refractometer is running")
@@ -91,6 +102,7 @@ def run_ui(parent_root=None):
     button_wipe = ttk.Button(paned_buttons, text="Wipe Lens", command=wipe_lens)
     button_sample = ttk.Button(paned_buttons, text="Sample", command=sample)
     button_peek = ttk.Button(paned_buttons, text="Peek", command=peek)
+    button_point = ttk.Button(paned_buttons, text="Point to a Light Source", command=point_to_lightsource)
     # =====
 
 
@@ -114,6 +126,7 @@ def run_ui(parent_root=None):
 
     label_group_value.grid(row=4, column=0, padx=5, columnspan=3, sticky="w")
     button_peek.grid(row=5, column=0, padx=5, pady=10)
+    button_point.grid(row=5, column=1, padx=5, pady=10, columnspan=2)
     # =====
 
     ui_root.mainloop()
