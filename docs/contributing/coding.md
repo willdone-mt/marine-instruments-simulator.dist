@@ -6,7 +6,7 @@
 
 # Reusability
 
-Pattern and Repeating Codes
+About Pattern and Repeating Codes
 
 - always define and declare functions and variables after imports. if cant, put it exactly above the code that used it for readability.
 
@@ -14,7 +14,7 @@ Pattern and Repeating Codes
 
 # Readability
 
-- the general order for coding is:
+- When making a new code file, the general order for writing the code is:
     1. imports
     2. defining and declaring
     3. main codes
@@ -54,7 +54,7 @@ This is done because the main designer of this project arent so educated in codi
     ```
     Topic are an obligated to write, meanwhile subtopic are not if the codes are clear enough
 
-- non-grouping comments always once indented than the commented row of code
+- non-grouping comments always once indented than the commented row of code. Comments that meant for code above it, always have blank line after the comment to avoid confusion.
     ```python
         # Hello World!
     a line of codes
@@ -62,6 +62,8 @@ This is done because the main designer of this project arent so educated in codi
         different indent line of codes
         same indent line of codes
             # this should fix the issue!
+
+        same indent line of codes.
 
                 # This is neat!
             another different indent

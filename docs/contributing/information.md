@@ -1,4 +1,4 @@
-# Contributing
+# Contributing Guidelines - Directory Information
 
 # Branches
 
@@ -15,11 +15,21 @@
     - small hotfixes
 - merge and store other branches
 - tag only
+
+Allowed folders and files to be edited are only:
+
+- pages/
+- assets/
     
 ## InDev
 - coding only
 - coding documentation
 - start of x version
+
+Allowed folders and files to be edited are only:
+
+- src/
+- build/
 
 ## alpha
 - coding only
@@ -33,62 +43,44 @@
 
 # Folders and Files
 
-## /assets
+## assets/
 
 Folder to store creative works. Other materials intended for use as visuals and sounds are kept here first, then picked the best to be placed in src/assets/. But mostly will be used for raw file of artwork that cannot contain privacy information.
 
-All expected creative works should be made by designer/developers of this software and should be licensed with CC BY SA
+All expected creative works should be made by designer/developers of this software and should be licensed with CC BY NC SA
 
-## /build
+## build/
 
 pyinstaller.py scripts, and temporary builds
 
-## /docs
+## docs/
 
-folder ```/docs``` that located in this repository contains  developer-side documentation, which things that dedicated for developers
+folder `docs` that located in this repository contains  developer-side documentation, which things that dedicated for developers
 
-```/docs``` that located inside ```/pages``` are for clients
+`docs/` that located inside `pages/` are for clients
 
-## /pages
+## pages/ (will be changed to dist/)
 
 where public subtree repository located. and also place for final executable file and dependencies.
 
 all things here are dedicated for clients and some files that be used by the exe.
 
-## /src
+## src/
 
 where are all be build :)
 
-### /instruments
+### instruments/
 
 folders that acts as module/ packages, contains file that replicate/simulate the operation of certain instruments
 
+### ui/
 
+folders that acts as module/packages, contains file that be used for UI
 
-# Changelogs
+# Naming Directories
 
-- Notices
-    - Will try to follow semantic versioning templates
+In documenting and developing SIRENIA exe, imagine all files even in the deepest subfolders are in the same root directory. The only things that make each file distinguishable is the name.
 
-- Formatting
-    - InDev  
-        ```v0.Y.Z+<commit number>```  
-    unstable, not yet open for public (public in this case is announced for students)
-    - Alpha  
-        ```vX.Y.Z-alpha.xyz```
-    - Beta  
-        ```vX.Y.Z-beta.xyz```
-    - Full/Stable release  
-        ```vX.Y.Z```
-    - Hotfix  
-        ```<latest version>+<problem>Fix/<commit number>```
+Folders are used to group files based on their purpose.
 
-- Update Formatting  
-```
-# <version> - <yyyy/mm/dd>
-"<title update if major>"
-
-##
-
-
-```
+- 
