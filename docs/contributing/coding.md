@@ -13,7 +13,7 @@ Pattern and Repeating Codes
 - We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
 
 # Encouraged Aestethic
-This is done because the main designer of this project arent so educated in coding XD.
+This is done because the main designer of this project arent so educated in coding.
 
 - we put an empty line between rows with different indent
     ```python
@@ -41,6 +41,7 @@ This is done because the main designer of this project arent so educated in codi
         rows of codes with different topic
     # =====
     ```
+    Topic are an obligated to write, meanwhile subtopic are not if the codes are clear enough
 
 - non-grouping comments always once indented than the commented row of code
     ```python
