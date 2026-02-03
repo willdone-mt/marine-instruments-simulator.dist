@@ -1,10 +1,15 @@
+import time
+tic = time.perf_counter()
+
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 import tkinter as tk
 from tkinter import ttk
+from ttkthemes import ThemedTk
 import subprocess as sp
 import webbrowser as wb
+import themes as th
 
 from instruments.handrefractometer import handrefractometer_ui  
 
@@ -36,19 +41,15 @@ def open_githubissue():
 def run_handrefractometer_ui():
     handrefractometer_ui.run_ui(root)
 
-# Main TKinter functions =====
+
 
 # Main Window
-root = tk.Tk()
+root = ThemedTk(theme="scidblue")
 root.title("SIRENIA - Home Menu")
 root.geometry("800x600")
 
 # ttk Style
-style = ttk.Style()
-style.configure("BW.TPanedwindow", foreground="grey", background="white", relief="raised")
-style.configure("TLabel", foreground="black", background="white", font=("Calibri", 10, "bold"))
-style.configure("1.TLabel", foreground="black", background="white", font=("Verdana", 16, "bold"), relief="flat", borderwidth=2)
-style.configure("2.TLabel", foreground="black", background="white", font=("Verdana", 14, "bold"), relief="flat", borderwidth=2)
+th.apply_theme()
 
 # =====
 
@@ -96,5 +97,11 @@ canvas = tk.Canvas(root, width=800, height=600)
 canvas.create_text(400, 300, text=ascii_art, font=("consolas", 12), anchor="s")
 canvas.place(relx=0.5, rely=1, anchor="center")
 
-#
+# calculate loadtime =====
+
+toc = time.perf_counter()
+loadtime = round((toc - tic), ndigits=2)
+print(f"SIRENIA needs {loadtime} seconds to load")
+# =====
+
 root.mainloop()

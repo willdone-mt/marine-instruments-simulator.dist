@@ -67,8 +67,6 @@ folders that acts as module/ packages, contains file that replicate/simulate the
 
 # Changelogs
 
-# CHANGELOGS
-
 - Notices
     - Will try to follow semantic versioning templates
 
@@ -94,9 +92,3 @@ folders that acts as module/ packages, contains file that replicate/simulate the
 
 
 ```
-
-# Workflows
-
-- check virus
-- merging
-- tag and release
