@@ -4,41 +4,41 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".
 import tkinter as tk
 from tkinter import ttk
 from ttkthemes import ThemedTk
-from main import general_instrument_ui
 
+from ui import general_instrument_ui
 try:
-    from .handrefractometer_module import command_definitions as cd
+    from .handrefractometer_module import handrefractometer_actions
 except ImportError:
-    from handrefractometer_module import command_definitions as cd
+    from src.instruments.handrefractometer.handrefractometer_module import handrefractometer_actions
 
 def run_ui(parent_root=None):
 
     # defining functions =====
     def open_lid():
-        message, closedLid = cd.open_lid()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.open_lid()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=f"{message}")
 
     def close_lid():
-        message, closedLid = cd.close_lid()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.close_lid()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=f"{message}")
 
     def calibration():
-        message, closedLid, calibrated, wiped = cd.calibrate()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.calibrate()
         label_lid.config(text=f"Lid is Closed: {closedLid}")
         label_message.config(text=message)
 
     def wipe_lens():
-        message = cd.wipe()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.wipe()
         label_message.config(text=message)
 
     def sample():
-        message = cd.sample()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.sample()
         label_message.config(text=message)
 
     def peek():
-        message, value = cd.peek()
+        closedLid, calibrated, wiped, sampled, pointed, peeking, value, message= handrefractometer_actions.peek()
         label_message.config(text=message)
         if value == False and value != 0:
             label_lid.config(text="Lid is still opened")
@@ -71,12 +71,6 @@ def run_ui(parent_root=None):
     # Widgets ===== Some of the widgets can be modulized
 
     # Titles
-
-
-
-
-    label_title_paned_HRmain = ttk.Label(ui_root, text="=== Main Window ===", style="2.TLabel")
-    label_title_paned_HRmain.place(relx=0.5, y=40, anchor='n')
 
     label_title_paned_labels = ttk.Label(ui_root, text="=== Status Messages ===", style="2.TLabel")
     label_title_paned_labels.place(relx=0.5, rely=0.78, anchor='s')
