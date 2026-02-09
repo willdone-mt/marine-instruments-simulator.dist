@@ -68,7 +68,7 @@ I intended to make it as an warmer up before student/user handling the real frag
 Read this for end users to succesfully run the app!
 
 ## ‼️ System Requirements
-So far its only been tested on developers' devices. However, only the RAM which has been recorded and it's not exceeded than `SIRENIA.exe`'s file size.
+So far its only been tested on developers' devices. However, only the RAM which has been recorded and it's not exceeded than double `SIRENIA.exe`'s file size.
 
 ## ⚙️ Downloading
 
@@ -76,11 +76,40 @@ You can directly download the latest version of `SIRENIA.exe` from [here]() or y
 
 Although, it is recommended that you also download this repository linked to the version you downloaded to help you go trough the app or if there are any dependencies located in this repository.
 
+Down here are the detailed steps to download the software. _(i swear these is just my verbosity, not AI slop)_:
+
+1. Make sure you are in the **home page** of this repository
+2. Navigate/move cursor to the right side, find and click `tags`
+3. You should be directed to git tags page of this project
+4. **Find the version** you want to download, then click it
+5. You should be directed to the pages which version you choose
+6. Scroll down a bit, you should find drop-down list labeled `assets`
+7. In there, there's a label **`SIRENIA.exe`**, click that
+   - Optional, you may also download the `Source code (zip)`
+6. The download should begin
+
+You can watch this video below if you still confused about the procedur above.
+
+<div align="center">
+<video controls src="./docs/tutorial/download_tutorial.mp4" title="Donwload Tutorial"></video>
+</div>
+
 ## 🚤 Running
 
 To run the software, simply find the Sirenia.exe and double click it. It should be running just fine.
 
 Again, it is recommended to run the app in the extracted zip of the repository to ensure all depedencies is be run.
+
+Down here are the detailed steps to run the software, step 1 till 4 are optional.  _(enjoy the not on purpose recorded music)_:
+
+1. Make sure **you downloaded `SIRENIA.exe` and the `Source code (zip)`**
+2. **Extract the `.zip`** file anywhere you like
+3. Once done, **move `SIRENIA.exe` into the folder** which contains other files from the source code.
+4. **Double click `SIRENIA.exe`** to run
+
+<div align="center">
+<video controls src="./docs/tutorial/running_tutorial.mp4" title="Running Tutorial"></video>
+</div>
 
 # 🪜 Development
 
@@ -90,14 +119,10 @@ See [`roadmap.md` here](./docs/roadmap.md) to see the list we working up to or h
 
 ## 🆘 Contributing
 
-Contributions are always welcome! especially from you! the client!
+Contributions are always welcome! especially from you! the user!
 
-You as client can mainly contribute to this project by reporting issues.
+You as end user can mainly contribute to this project by reporting issues.
 See [`contributing.md` for ways to get started. here!](./CONTRIBUTING.md)
-
-### 📜 Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
 
 ## ❓ FAQ
 
