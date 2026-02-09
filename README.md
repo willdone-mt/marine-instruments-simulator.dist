@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# WELCOME TO SIRENIA COMMUNITY PAGES!
+# WELCOME TO SIRENIA DISTRIBUTION PAGES!
 
 this repository is specially public for allowing you, clients and end users, to access the latest version of the product and report issues!
 
@@ -88,10 +88,10 @@ Down here are the detailed steps to download the software. _(i swear these is ju
    - Optional, you may also download the `Source code (zip)`
 6. The download should begin
 
-You can watch this video below if you still confused about the procedur above.
+You can watch this gif below if you still confused about the procedur above.
 
 <div align="center">
-<video controls src="./docs/tutorial/download_tutorial.mp4" title="Donwload Tutorial"></video>
+<img src="./docs/tutorial/download_tutorial.gif" width="800" alt="Donwload Tutorial">
 </div>
 
 ## 🚤 Running
@@ -107,8 +107,10 @@ Down here are the detailed steps to run the software, step 1 till 4 are optional
 3. Once done, **move `SIRENIA.exe` into the folder** which contains other files from the source code.
 4. **Double click `SIRENIA.exe`** to run
 
+You can watch this gif below if you still confused about the procedur above.
+
 <div align="center">
-<video controls src="./docs/tutorial/running_tutorial.mp4" title="Running Tutorial"></video>
+<img src="./docs/tutorial/running_tutorial.gif" width="800" alt="Donwload Tutorial">
 </div>
 
 # 🪜 Development
