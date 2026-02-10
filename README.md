@@ -1,22 +1,18 @@
 
-
 <div align="center">
 
-# WELCOME TO SIRENIA DISTRIBUTION PAGES!
+# WELCOME TO SIRENIA DISTRIBUTION PAGES
 
 this repository is specially public for allowing you, clients and end users, to access the latest version of the product and report issues!
-
 
   <img src="assets/images/logo.png" alt="logo" width="200" height="auto" />
   <h1>SIRENIA</h1>
   
   <p>
-    A Marine Scientific Instruments Simulator 
+    A Marine Scientific Instruments Simulator
   </p>
   
-  
 <!-- Badges -->
-
 
 </div>
 
@@ -24,22 +20,21 @@ this repository is specially public for allowing you, clients and end users, to 
 
 - [📔 Table of Contents](#-table-of-contents)
 - [🐳 About the Project](#-about-the-project)
-   * [📸 Screenshots](#-screenshots)
-   * [🎯 Features](#-features)
+  - [📸 Screenshots](#-screenshots)
+  - [🎯 Features](#-features)
 - [🧩 Tech Stack](#-tech-stack)
 - [🧰 Getting Started](#-getting-started)
-   * [‼️ System Requirements](#️-system-requirements)
-   * [⚙️ Downloading](#-downloading)
-   * [🧪 Running](#-running)
+  - [‼️ System Requirements](#️-system-requirements)
+  - [⚙️ Downloading](#️-downloading)
+  - [🧪 Running](#-running)
 - [🪜 Development](#-development)
-   * [🗺️ Roadmap](#-roadmap)
-   * [🆘 Contributing](#-contributing)
-      + [📜 Code of Conduct](#-code-of-conduct)
-   * [❓ FAQ](#-faq)
+  - [🗺️ Roadmap](#️-roadmap)
+  - [🆘 Contributing](#-contributing)
+  - [❓ FAQ](#-faq)
 - [Credits](#credits)
-   * [📜 License](#-license)
-   * [🤝 Contact](#-contact)
-   * [💎 Acknowledgements](#-acknowledgements)
+  - [📜 License](#-license)
+  - [🤝 Contact](#-contact)
+  - [💎 Acknowledgements](#-acknowledgements)
 
 # 🐳 About the Project
 
@@ -50,29 +45,30 @@ I intended to make it as an warmer up before student/user handling the real frag
 
 ## 📸 Screenshots
 
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+<div align="center">
+  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot"/>
 </div>
 
 ## ⛵ Features
 
 - Implemented Instruments:
-    - Hand Refractometer
+  - Hand Refractometer
 
 # 🐙 Tech Stack
 
-**Main Programming Language Used: Python 🐍** 
+- **Main Programming Language Used: Python 🐍**
 
 # 🧰 Getting Started
 
 Read this for end users to succesfully run the app!
 
 ## ‼️ System Requirements
+
 So far its only been tested on developers' devices. However, only the RAM which has been recorded and it's not exceeded than double `SIRENIA.exe`'s file size.
 
 ## ⚙️ Downloading
 
-You can directly download the latest version of `SIRENIA.exe` from [here]() or you can access the tags available on the sidebar on the home page of the repository for specific version. 
+You can directly download the latest version of `SIRENIA.exe` from [here]() or you can access the tags available on the sidebar on the home page of the repository for specific version.
 
 Although, it is recommended that you also download this repository linked to the version you downloaded to help you go trough the app or if there are any dependencies located in this repository.
 
@@ -86,7 +82,7 @@ Down here are the detailed steps to download the software. _(i swear these is ju
 6. Scroll down a bit, you should find drop-down list labeled `assets`
 7. In there, there's a label **`SIRENIA.exe`**, click that
    - Optional, you may also download the `Source code (zip)`
-6. The download should begin
+8. The download should begin
 
 You can watch this gif below if you still confused about the procedur above.
 
@@ -138,6 +134,6 @@ WIP EULA
 
 Wildan M. Mursalin - [WIP]
 
-Project Accessible Link: https://github.com/willdone-mt/marine-instruments-simulator.pages
+Project Accessible Link: <https://github.com/willdone-mt/marine-instruments-simulator.pages>
 
 ## 💎 Acknowledgements
