@@ -68,7 +68,7 @@ So far its only been tested on developers' devices. However, only the RAM which 
 
 ## ⚙️ Downloading
 
-You can directly download the latest version of `SIRENIA.exe` from [here]() or you can access the tags available on the sidebar on the home page of the repository for specific version.
+You can directly download the [latest version of `SIRENIA.exe` from here](https://github.com/willdone-mt/marine-instruments-simulator.dist/releases/latest) or you can access the tags available on the sidebar on the home page of the repository for specific version.
 
 Although, it is recommended that you also download this repository linked to the version you downloaded to help you go trough the app or if there are any dependencies located in this repository.
 
@@ -134,6 +134,6 @@ WIP EULA
 
 Wildan M. Mursalin - [WIP]
 
-Project Accessible Link: <https://github.com/willdone-mt/marine-instruments-simulator.pages>
+Project Accessible Link: <https://github.com/willdone-mt/marine-instruments-simulator.dist>
 
 ## 💎 Acknowledgements
