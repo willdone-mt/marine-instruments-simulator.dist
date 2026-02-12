@@ -1,16 +1,15 @@
-
 <div align="center">
 
 # WELCOME TO SIRENIA DISTRIBUTION PAGES
 
 this repository is specially public for allowing you, clients and end users, to access the latest version of the product and report issues!
 
-  <img src="assets/images/logo.png" alt="logo" width="200" height="auto" />
-  <h1>SIRENIA</h1>
+<img src="assets/images/logo.png" alt="logo" width="200" height="auto" />
+<h1>SIRENIA</h1>
   
-  <p>
-    A Marine Scientific Instruments Simulator
-  </p>
+<p>
+A Marine Scientific Instruments Simulator
+</p>
   
 <!-- Badges -->
 
@@ -19,7 +18,7 @@ this repository is specially public for allowing you, clients and end users, to 
 # 📔 Table of Contents
 
 - [📔 Table of Contents](#-table-of-contents)
-- [🐳 About the Project](#-about-the-project)
+- [🐳 About this Software](#-about-this-software)
   - [📸 Screenshots](#-screenshots)
   - [🎯 Features](#-features)
 - [🧩 Tech Stack](#-tech-stack)
@@ -36,7 +35,7 @@ this repository is specially public for allowing you, clients and end users, to 
   - [🤝 Contact](#-contact)
   - [💎 Acknowledgements](#-acknowledgements)
 
-# 🐳 About the Project
+# 🐳 About this Software
 
 Sirenia is a simulator software focusing on replicating the operation of marine scientific instruments in real-life field.
 [WIP]
@@ -96,7 +95,7 @@ To run the software, simply find the Sirenia.exe and double click it. It should 
 
 Again, it is recommended to run the app in the extracted zip of the repository to ensure all depedencies is be run.
 
-Down here are the detailed steps to run the software, step 1 till 4 are optional.  _(enjoy the not on purpose recorded music)_:
+Down here are the detailed steps to run the software, step 1 till 3 are optional.  _(enjoy the not on purpose recorded music)_:
 
 1. Make sure **you downloaded `SIRENIA.exe` and the `Source code (zip)`**
 2. **Extract the `.zip`** file anywhere you like
