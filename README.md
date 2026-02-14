@@ -13,6 +13,9 @@ A Marine Scientific Instruments Simulator
   
 <!-- Badges -->
 
+![GitHub last commit](https://img.shields.io/github/last-commit/willdone-mt/marine-instruments-simulator.dist?display_timestamp=author&style=for-the-badge&label=Last%20Activity&labelColor=%23202A44&color=%23005EB8)
+![GitHub Tag](https://img.shields.io/github/v/tag/willdone-mt/marine-instruments-simulator.dist?include_prereleases&sort=semver&style=for-the-badge&label=Latest%20Version&labelColor=%23202A44&color=%23005EB8)
+
 </div>
 
 # 📔 Table of Contents
