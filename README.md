@@ -20,22 +20,24 @@ A Marine Scientific Instruments Simulator
 
 # 📔 Table of Contents
 
+- [WELCOME TO SIRENIA DISTRIBUTION PAGES](#welcome-to-sirenia-distribution-pages)
 - [📔 Table of Contents](#-table-of-contents)
 - [🐳 About this Software](#-about-this-software)
   - [📸 Screenshots](#-screenshots)
-  - [🎯 Features](#-features)
-- [🧩 Tech Stack](#-tech-stack)
+  - [⛵ Features](#-features)
+- [🐙 Tech Stack](#-tech-stack)
 - [🧰 Getting Started](#-getting-started)
   - [‼️ System Requirements](#️-system-requirements)
   - [⚙️ Downloading](#️-downloading)
-  - [🧪 Running](#-running)
+  - [🚤 Running](#-running)
+  - [How To Use](#how-to-use)
 - [🪜 Development](#-development)
   - [🗺️ Roadmap](#️-roadmap)
   - [🆘 Contributing](#-contributing)
   - [❓ FAQ](#-faq)
 - [Credits](#credits)
   - [📜 License](#-license)
-  - [🤝 Contact](#-contact)
+  - [📨 Contact](#-contact)
   - [💎 Acknowledgements](#-acknowledgements)
 
 # 🐳 About this Software
@@ -66,7 +68,7 @@ Read this for end users to succesfully run the app!
 
 ## ‼️ System Requirements
 
-So far its only been tested on developers' devices. However, only the RAM which has been recorded and it's not exceeded than double `SIRENIA.exe`'s file size.
+For now, SIRENIA can only run on Windows OS due to the packager only available in the said OS
 
 ## ⚙️ Downloading
 
@@ -110,6 +112,8 @@ You can watch this gif below if you still confused about the procedur above.
 <div align="center">
 <img src="./docs/tutorial/running_tutorial.gif" width="800" alt="Donwload Tutorial">
 </div>
+
+## How To Use
 
 # 🪜 Development
 
