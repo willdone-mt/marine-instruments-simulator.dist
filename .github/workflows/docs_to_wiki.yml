@@ -24,7 +24,7 @@ jobs:
           # The repository housing the wiki. Use this if you're publishing to a wiki that's not the current repository. You can change the GitHub server with the github-server-url input. Default is github.repository.
           repository: ${{ github.repository }} # default is ${{ github.repository }}
           # An alternate https://github.com URL, usually for GitHub Enterprise deployments under your own domain. Default is github.server_url (usually https://github.com).
-          github-server-url: # default is ${{ github.server_url }}
+          github-server-url: ${{ github.server_url }} # default is ${{ github.server_url }}
           # github.token is the default. This token is used when cloning and pushing wiki changes.
           token: ${{ secrets.WIKI_TOKEN }}  # default is ${{ github.token }}
           # The directory to use for your wiki contents. Default wiki.
