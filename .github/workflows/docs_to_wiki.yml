@@ -22,7 +22,7 @@ jobs:
           # Select from 'clone' or 'init' to determine which method to use to push changes to the GitHub wiki. 'clone' will clone the .wiki.git repo and add an additional commit. 'init' will create a new repo with a single commit and force push to the .wiki.git. 'init' involves a force-push! The default is 'clone'.
           strategy: clone # default is clone
           # The repository housing the wiki. Use this if you're publishing to a wiki that's not the current repository. You can change the GitHub server with the github-server-url input. Default is github.repository.
-          repository: ${{ github.repository }} # default is ${{ github.repository }}
+          repository: https://github.com/willdone-mt/marine-instruments-simulator.dist # default is ${{ github.repository }}
           # An alternate https://github.com URL, usually for GitHub Enterprise deployments under your own domain. Default is github.server_url (usually https://github.com).
           github-server-url: # default is ${{ github.server_url }}
           # github.token is the default. This token is used when cloning and pushing wiki changes.
