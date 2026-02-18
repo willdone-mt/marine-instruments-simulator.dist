@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: Andrew-Chen-Wang/github-wiki-action@v4
         with:
           # Select from 'clone' or 'init' to determine which method to use to push changes to the GitHub wiki. 'clone' will clone the .wiki.git repo and add an additional commit. 'init' will create a new repo with a single commit and force push to the .wiki.git. 'init' involves a force-push! The default is 'clone'.
@@ -24,7 +26,7 @@ jobs:
           # An alternate https://github.com URL, usually for GitHub Enterprise deployments under your own domain. Default is github.server_url (usually https://github.com).
           github-server-url: # default is ${{ github.server_url }}
           # github.token is the default. This token is used when cloning and pushing wiki changes.
-          token: # default is ${{ github.token }}
+          token: ${{ github.token }}  # default is ${{ github.token }}
           # The directory to use for your wiki contents. Default wiki.
           path: "docs/wiki" # default is wiki
           # The message to use when committing new content. Default is 'Update wiki github.sha'. You probably don't need to change this, since this only applies if you look really closely in your wiki.
