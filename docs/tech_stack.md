@@ -19,7 +19,9 @@
 
     <https://docs.python.org/3/library/tkinter.html>
   
-  - Tkinterweb
+  
+  - [ttkbootstrap](https://ttkbootstrap.readthedocs.io/en/latest/)
+  - [Tkinterweb](https://pypi.org/project/tkinterweb/)
 
   > Reconsidering this below:
   > - "tkcalendar (>=1.6.1,<2.0.0)",
@@ -60,10 +62,12 @@
 
 [Shield.io](https://shields.io/), [ColorCodes.io](https://colorcodes.io/)
 
-## Bibliography
+## Bibliography (how to's)
 
 - <https://realpython.com/ref/glossary>
 - <https://realpython.com/ref/glossary/zen-of-python/>
+
+- Python's Enhacement Proposals (PEP)
 
 - [Naming Things in Code](https://youtu.be/-J3wNP6u5YU?si=b3I9XVN-PsbPc2i3)
     > This goes in `coding_guide.md` readability.
@@ -120,7 +124,11 @@
 - Logging
 
   <https://realpython.com/python-logging/>
+  <https://stackoverflow.com/questions/15727420/using-logging-in-multiple-modules>
+  
   <https://docs.python.org/3/library/logging.html>
+  <https://docs.python.org/3/howto/logging.html>
+  <https://docs.python.org/3/library/logging.config.html>
 
 - Documenting Code
 
