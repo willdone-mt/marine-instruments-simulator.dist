@@ -62,13 +62,20 @@
 
 [Shield.io](https://shields.io/), [ColorCodes.io](https://colorcodes.io/)
 
+<<<<<<< HEAD
 ## Bibliography (how to's)
+=======
+## Bibliography
+>>>>>>> f16d4c77bd064fe7e3ba57f13c3e92317e2286db
 
 - <https://realpython.com/ref/glossary>
 - <https://realpython.com/ref/glossary/zen-of-python/>
 
+<<<<<<< HEAD
 - Python's Enhacement Proposals (PEP)
 
+=======
+>>>>>>> f16d4c77bd064fe7e3ba57f13c3e92317e2286db
 - [Naming Things in Code](https://youtu.be/-J3wNP6u5YU?si=b3I9XVN-PsbPc2i3)
     > This goes in `coding_guide.md` readability.
 - [Why You Shouldn't Nest Your Code](https://youtu.be/CFRhGnuXG-4?si=0C-Pm74JsPtwFz1p)
@@ -124,11 +131,15 @@
 - Logging
 
   <https://realpython.com/python-logging/>
+<<<<<<< HEAD
   <https://stackoverflow.com/questions/15727420/using-logging-in-multiple-modules>
   
   <https://docs.python.org/3/library/logging.html>
   <https://docs.python.org/3/howto/logging.html>
   <https://docs.python.org/3/library/logging.config.html>
+=======
+  <https://docs.python.org/3/library/logging.html>
+>>>>>>> f16d4c77bd064fe7e3ba57f13c3e92317e2286db
 
 - Documenting Code
 
