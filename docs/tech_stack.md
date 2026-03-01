@@ -19,7 +19,6 @@
 
     <https://docs.python.org/3/library/tkinter.html>
   
-  
   - [ttkbootstrap](https://ttkbootstrap.readthedocs.io/en/latest/)
   - [Tkinterweb](https://pypi.org/project/tkinterweb/)
 
@@ -125,6 +124,8 @@
 
   <https://realpython.com/python-logging/>
   <https://docs.python.org/3/library/logging.html>
+  <https://www.geeksforgeeks.org/python/logging-in-python/>
+  <https://www.dash0.com/guides/logging-in-python>
 
 - Documenting Code
 
