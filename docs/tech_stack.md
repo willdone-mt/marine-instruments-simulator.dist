@@ -65,6 +65,7 @@
 
 - <https://realpython.com/ref/glossary>
 - <https://realpython.com/ref/glossary/zen-of-python/>
+- <https://realpython.com/python3-object-oriented-programming/>
 
 - Python's Enhacement Proposals (PEP)
 
@@ -76,7 +77,20 @@
 - [10 Python Important Concept in 20 minutes](https://youtu.be/Gx5qb1uHss4?si=ApJ8XnAa3J5IL3E8)
 - [Cleaner Codes: 3 Ways You Can Write Cleaner Codes](https://youtu.be/MKaLJyPOS4U?si=Bqks-BQqtYj3K-Eb)
 
+- make breaking changes still tolerable with backward compatibility via script statements (if, try, and anything else that reroute the calls)
+  - <https://stackoverflow.com/questions/72380674/keep-backward-compatibility-for-a-function-when-we-need-to-return-more-values-th?utm_source=copilot.com>
+  - <https://codesignal.com/learn/courses/backward-compatibility-in-software-development/lessons/evolving-code-adding-features-with-backward-compatibility-in-python>
+  - <https://codesignal.com/learn/courses/backward-compatibility-in-software-development/lessons/maintaining-backward-compatibility-with-versioning-in-python>
+
 ### Specific
+
+- Functions
+
+  - [Python's Function](https://docs.python.org/3/tutorial/controlflow.html#defining-functions), 
+  - [Real Python's Doc about Function](https://realpython.com/defining-your-own-python-function/#defining-and-calling-functions-advanced-features)
+  - <https://realpython.com/ref/stdlib/typing/>
+  - <https://docs.python.org/3/library/typing.html>
+  - 
 
 - Importing
 
@@ -130,3 +144,7 @@
 - Documenting Code
 
     <https://algocademy.com/blog/the-ultimate-guide-to-documenting-your-coding-projects/>
+
+- Data Format
+
+    <https://docs.unidata.ucar.edu/nug/current/index.html>
