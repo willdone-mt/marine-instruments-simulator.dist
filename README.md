@@ -4,7 +4,7 @@
 
 this repository is specially public for allowing you, clients and end users, to access the latest version of the product and report issues!
 
-<img src="assets/images/logo.png" alt="logo" width="200" height="auto" />
+<img src="assets/icon.png" alt="logo" width="200" height="auto" />
 <h1>SIRENIA</h1>
   
 <p>
@@ -42,15 +42,21 @@ A Marine Scientific Instruments Simulator
 
 # 🐳 About this Software
 
-Sirenia is a simulator software focusing on replicating the operation of marine scientific instruments in real-life field.
-[WIP]
-This software also planned to be able to open third-party software such as the instrument's launcher and data pre-processing software.
-I intended to make it as an warmer up before student/user handling the real fragile instrument, or at least as a introduction or lesson to teach when there is no available real-life instrument.
+**SIRENIA** is an educational simulation software that recreates the operation of marine scientific instruments used in field research. 
+It was created to provide a better introduction to scientific instruments, especially when real instruments are limited, fragile, or unavailable.
+
+The software is intended for YOU, and anyone, especially students in marine science preparing for laboratory or field work.
+It provides a safe environment where you can explore, learn, and practice how these instruments work before using real equipment, 
+helping you become familiar with their interfaces, workflows, and basic procedures.
+
+The current version simulates the operation of an analog hand refractometer, with additional instruments planned for future development.
+Future versions will also support integration with third-party software, including instrument launchers and data pre-processing tools.
+
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot"/>
+  <img src="assets/screenshot_mainmenu.png" alt="screenshot"/>
 </div>
 
 ## ⛵ Features
@@ -58,13 +64,18 @@ I intended to make it as an warmer up before student/user handling the real frag
 - Implemented Instruments:
   - Hand Refractometer
 
+<div align="center">
+  <img src="assets/screenshot_handrefractometer.png" alt="screenshot"/>
+</div>
+
+
 # 🐙 Tech Stack
 
 - **Main Programming Language Used: Python 🐍**
 
 # 🧰 Getting Started
 
-Read this for end users to succesfully run the app!
+End users must read this to succesfully run the app!
 
 ## ‼️ System Requirements
 
@@ -100,7 +111,7 @@ To run the software, simply find the Sirenia.exe and double click it. It should 
 
 Again, it is recommended to run the app in the extracted zip of the repository to ensure all depedencies is be run.
 
-Down here are the detailed steps to run the software, step 1 till 3 are optional.  _(enjoy the not on purpose recorded music)_:
+Down here are the detailed steps to run the software, step 1 till 3 are optional.:
 
 1. Make sure **you downloaded `SIRENIA.exe` and the `Source code (zip)`**
 2. **Extract the `.zip`** file anywhere you like
@@ -115,11 +126,19 @@ You can watch this gif below if you still confused about the procedur above.
 
 ## How To Use
 
+Follow the instruction on [this section](#-running).
+Then, once you choose the instrument you want to learn,
+read carefully the window that pop-up after that,
+which contains the basic information of the instrument,
+and the interaction you need to do equivalent in-real-life procedure
+
 # 🪜 Development
+
+SIRENIA had reach v0.1.0!
 
 ## 🗺️ Roadmap
 
-See [`roadmap.md` here](./docs/roadmap.md) to see the list we working up to or heads up to Project Tab of this repo.
+See [`roadmap.md` here](./docs/roadmap.md) to see the list we working up to or heads up to Project Tab of this repository.
 
 ## 🆘 Contributing
 
@@ -130,11 +149,17 @@ See [`contributing.md` for ways to get started. here!](./CONTRIBUTING.md)
 
 ## ❓ FAQ
 
+- **Is this a marine modeling and simulation software?**
+  
+  **No**, this is not a marine modeling software, nor phenomenon simulation. 
+  The main point of this software is to replicate the experience of using marine instruments, 
+  especially in measuring and sampling parameters  
+
 # Credits
 
 ## 📜 License
 
-WIP EULA
+> WIP EULA
 
 ## 📨 Contact
 

@@ -90,7 +90,9 @@
   - [Real Python's Doc about Function](https://realpython.com/defining-your-own-python-function/#defining-and-calling-functions-advanced-features)
   - <https://realpython.com/ref/stdlib/typing/>
   - <https://docs.python.org/3/library/typing.html>
-  - 
+  - <https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html>
+  - <https://peps.python.org/pep-0484/>
+  - <https://betterstack.com/community/guides/scaling-python/python-type-hints/>
 
 - Importing
 
