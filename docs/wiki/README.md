@@ -1,5 +1,7 @@
 <div align="center">
 
+<!-- HTML IMAGE NOT RENDERED CORRECTLY -->
+
 <img src="icon.png" alt="logo" width="200" height="auto" />
 <h1>SIRENIA</h1>
   

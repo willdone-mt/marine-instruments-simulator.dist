@@ -1,6 +1,10 @@
+
+
 # ❓ Frequently Asked Question
 
 - **Is this a marine modeling and simulation software?**
+
+<!-- WRONGLY INDENTED WHEN BEING RENDERED IN WIKIABOUT WINDOW -->
   
   **No**, this is not a marine modeling software, nor phenomenon simulation. 
   The main point of this software is to replicate the experience of using marine instruments, 
