@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/logo.png" alt="logo" width="200" height="auto" />
+<img src="icon.png" alt="logo" width="200" height="auto" />
 <h1>SIRENIA</h1>
   
 <p>
@@ -9,34 +9,17 @@ A Marine Scientific Instruments Simulator
   
 </div>
 
-# 📔 Table of Contents
-
-- [📔 Table of Contents](#-table-of-contents)
-- [🐳 About this Software](#-about-this-software)
-  - [📸 Screenshots](#-screenshots)
-  - [⛵ Features](#-features)
-- [🐙 Tech Stack](#-tech-stack)
-- [🪜 Development](#-development)
-  - [🗺️ Roadmap](#️-roadmap)
-  - [🆘 Contributing](#-contributing)
-  - [❓ FAQ](#-faq)
-- [Credits](#credits)
-  - [📜 License](#-license)
-  - [📨 Contact](#-contact)
-  - [💎 Acknowledgements](#-acknowledgements)
-
 # 🐳 About this Software
 
-Sirenia is a simulator software focusing on replicating the operation of marine scientific instruments in real-life field.
-[WIP]
-This software also planned to be able to open third-party software such as the instrument's launcher and data pre-processing software.
-I intended to make it as an warmer up before student/user handling the real fragile instrument, or at least as a introduction or lesson to teach when there is no available real-life instrument.
+**SIRENIA** is an educational simulation software that recreates the operation of marine scientific instruments used in field research. 
+It was created to provide a better introduction to scientific instruments, especially when real instruments are limited, fragile, or unavailable.
 
-## 📸 Screenshots
+The software is intended for YOU, and anyone, especially students in marine science preparing for laboratory or field work.
+It provides a safe environment where you can explore, learn, and practice how these instruments work before using real equipment, 
+helping you become familiar with their interfaces, workflows, and basic procedures.
 
-<div align="center">
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot"/>
-</div>
+The current version simulates the operation of an analog hand refractometer, with additional instruments planned for future development.
+Future versions will also support integration with third-party software, including instrument launchers and data pre-processing tools.
 
 ## ⛵ Features
 
@@ -59,8 +42,6 @@ Contributions are always welcome! especially from you! the user!
 
 You as end user can mainly contribute to this project by reporting issues.
 See [`contributing.md` for ways to get started. here!](./CONTRIBUTING.md)
-
-## ❓ FAQ
 
 # Credits
 
