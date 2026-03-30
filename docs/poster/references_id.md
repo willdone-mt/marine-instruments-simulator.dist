@@ -1,3 +1,6 @@
+# Tautan Video
+Coming Soon
+
 # Daftar Pustaka yang Digunakan di Poster
 
 Erboz, G. 2017. How to Define Industry 4.0: The Main Pillars Of Industry 4.0. Managerial Trends in the Development of Enterprises in Globalization Era. 761–767.
